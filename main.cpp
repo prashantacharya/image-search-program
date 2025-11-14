@@ -198,7 +198,7 @@ void printMatchingRegions(const vector<pair<int, int>> &matchLocations,
 void processPotentialMatchParallel(
     const PNG &mainImage, const PNG &maskImage, 
     int requiredMatch, int tolerance, int row, int col, 
-    vector<pair<int,int>> &matchLocations) {
+    vector<pair<int, int>> &matchLocations) {
 
     const int total = maskImage.getWidth() * maskImage.getHeight();
     int count = countMatchingPixels(mainImage, 
@@ -218,10 +218,10 @@ void processPotentialMatchParallel(
  * \param[in] mask  Mask image for width/height.
  * \return          Vector of non-overlapping matches.
  */
-vector<pair<int,int>> filterOverlaps(const vector<pair<int,int>>& rawMatches, 
+vector<pair<int, int>> filterOverlaps(const vector<pair<int, int>>& rawMatches, 
                                             const PNG &mask) {
     if (rawMatches.empty()) return {};
-    vector<pair<int,int>> sorted = rawMatches, nonOverlappingMatches;
+    vector<pair<int, int>> sorted = rawMatches, nonOverlappingMatches;
     sort(sorted.begin(), sorted.end());
 
     int mh = mask.getHeight(), mw = mask.getWidth();
