@@ -1,0 +1,7 @@
+[prashantacharya@pitzer-login01 homework6]$ sbatch --tasks-per-node=4 hw6_slurm.sh
+Submitted batch job 41961563
+[prashantacharya@pitzer-login01 homework6]$ sbatch --tasks-per-node=1 hw6_slurm.sh
+Submitted batch job 41961571
+[prashantacharya@pitzer-login01 homework6]$ sbatch --tasks-per-node=8 hw6_slurm.sh
+Submitted batch job 41961573
+[prashantacharya@pitzer-login01 homework6]$ 

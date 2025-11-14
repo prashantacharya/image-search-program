@@ -17,7 +17,7 @@
 // intellectual property laws, and all other applicable laws of the
 // U.S., and the terms of GNU General Public License (version 3).
 //
-// Authors:   DJ Rao          acharyp@miamiOH.edu
+// Authors:   Prashant Acharya          acharyp@miamiOH.edu
 //
 //---------------------------------------------------------------------
 

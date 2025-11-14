@@ -1,6 +1,7 @@
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -Wall -Wextra -std=c++17 -O2
+CXXFLAGS = -Wall -Wextra -std=c++17 -O2 -fopenmp
+LDFLAGS = -lpng
 
 # Executable name
 TARGET = main
@@ -14,7 +15,7 @@ all: $(TARGET)
 
 # Linking
 $(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $@ $^
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 # Compilation
 %.o: %.cpp

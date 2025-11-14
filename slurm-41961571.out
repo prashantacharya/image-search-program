@@ -1,0 +1,94 @@
+sub-image matched at:1211, 712, 1306, 827
+sub-image matched at:1315, 726, 1410, 841
+Number of matches: 2
+	Command being timed: "./homework6 images/Mammogram.png images/Cancer_mask.png result1.png"
+	User time (seconds): 147.83
+	System time (seconds): 1.86
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:30.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 1053
+	Voluntary context switches: 65
+	Involuntary context switches: 739
+	Swaps: 0
+	File system inputs: 1800
+	File system outputs: 1448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+sub-image matched at:73, 630, 85, 660
+sub-image matched at:120, 310, 132, 340
+sub-image matched at:202, 677, 214, 707
+sub-image matched at:226, 864, 238, 894
+sub-image matched at:274, 67, 286, 97
+Number of matches: 5
+	Command being timed: "./homework6 images/TestImage.png images/and_mask.png result2.png true 75 16"
+	User time (seconds): 7.13
+	System time (seconds): 1.56
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 660
+	Voluntary context switches: 47
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 1152
+	File system outputs: 1176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+sub-image matched at:567, 818, 601, 859
+sub-image matched at:567, 1021, 601, 1062
+sub-image matched at:568, 619, 602, 660
+sub-image matched at:568, 1226, 602, 1267
+sub-image matched at:578, 1791, 612, 1832
+sub-image matched at:582, 1996, 616, 2037
+sub-image matched at:590, 2198, 624, 2239
+sub-image matched at:605, 817, 639, 858
+sub-image matched at:605, 1020, 639, 1061
+sub-image matched at:606, 618, 640, 659
+sub-image matched at:607, 1225, 641, 1266
+sub-image matched at:616, 1791, 650, 1832
+sub-image matched at:620, 1995, 654, 2036
+sub-image matched at:627, 2197, 661, 2238
+sub-image matched at:816, 1209, 850, 1250
+Number of matches: 15
+	Command being timed: "./homework6 images/MiamiMarcumCenter.png images/WindowPane_mask.png result3.png true 50 64"
+	User time (seconds): 108.08
+	System time (seconds): 8.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:56.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 31912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1090
+	Voluntary context switches: 165
+	Involuntary context switches: 551
+	Swaps: 0
+	File system inputs: 28864
+	File system outputs: 29056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
